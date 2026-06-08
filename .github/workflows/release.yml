@@ -19,9 +19,9 @@ jobs:
     strategy:
       matrix:
         include:
-          - os: macos-13   # Intel x86_64
+          - os: macos-13   # Intel x86_64 runner — needed for native x86_64 .macro build
             arch: x86_64
-          - os: macos-14   # Apple Silicon arm64
+          - os: macos-15   # Apple Silicon arm64 runner
             arch: arm64
     runs-on: ${{ matrix.os }}
     steps:
