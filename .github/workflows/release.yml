@@ -21,10 +21,12 @@ jobs:
         include:
           - os: macos-15
             arch: x86_64
-            build_cmd: arch -x86_64 swift build --product PySwiftGenerators -c release
+            build_cmd: arch -x86_64 swift build -c release
+            bin_path: .build/x86_64-apple-macosx/release/PySwiftGenerators
           - os: macos-15
             arch: arm64
-            build_cmd: swift build --product PySwiftGenerators -c release
+            build_cmd: swift build -c release
+            bin_path: .build/release/PySwiftGenerators
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
@@ -36,7 +38,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: binary-${{ matrix.arch }}
-          path: .build/release/PySwiftGenerators
+          path: ${{ matrix.bin_path }}
 
   # Combine both binaries, package the artifactbundle, and attach to the release.
   package:

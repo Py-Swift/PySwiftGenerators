@@ -33,10 +33,10 @@ let package = Package(
     name: "PySwiftGenerators",
     platforms: [.macOS(.v11)],
     products: [
-        // Product.macro does not exist in the PackageDescription API;
-        // .library wrapping a .macro target works identically for consumers.
-        .library(name: "PySwiftGenerators",  targets: ["PySwiftGenerators"]),
-        .library(name: "PyWrapperInternal",  targets: ["PyWrapperInternal"]),
+        // Note: .macro target auto-creates a "PySwiftGenerators" macro product;
+        // no need to declare it explicitly.
+        .library(name: "PyWrapperInternal", targets: ["PyWrapperInternal"]),
+        .library(name: "PyWrapperInfo",     targets: ["PyWrapperInfo"]),
     ],
     dependencies: [
         .package(url: "https://github.com/swiftlang/swift-syntax.git", from: "601.0.0"),
