@@ -34,7 +34,7 @@ jobs:
 
       - name: Locate and stage binary
         run: |
-          BIN=$(find .build -name PySwiftGenerators -type f -perm +111 | head -1)
+          BIN=$(find .build -name "PySwiftGenerators-tool" -type f -perm +111 | head -1)
           echo "Found binary at: $BIN"
           cp "$BIN" PySwiftGenerators-${{ matrix.arch }}
 
