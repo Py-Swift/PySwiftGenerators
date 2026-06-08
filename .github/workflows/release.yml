@@ -19,16 +19,18 @@ jobs:
     strategy:
       matrix:
         include:
-          - os: macos-13   # Intel x86_64 runner — needed for native x86_64 .macro build
+          - os: macos-15
             arch: x86_64
-          - os: macos-15   # Apple Silicon arm64 runner
+            build_cmd: arch -x86_64 swift build --product PySwiftGenerators -c release
+          - os: macos-15
             arch: arm64
+            build_cmd: swift build --product PySwiftGenerators -c release
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
 
       - name: Build ${{ matrix.arch }} release binary
-        run: swift build --product PySwiftGenerators -c release
+        run: ${{ matrix.build_cmd }}
 
       - name: Upload binary artifact
         uses: actions/upload-artifact@v4
