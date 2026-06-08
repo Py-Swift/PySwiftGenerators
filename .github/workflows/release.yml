@@ -22,11 +22,9 @@ jobs:
           - os: macos-15
             arch: x86_64
             build_cmd: arch -x86_64 swift build -c release
-            bin_path: .build/x86_64-apple-macosx/release/PySwiftGenerators
           - os: macos-15
             arch: arm64
             build_cmd: swift build -c release
-            bin_path: .build/release/PySwiftGenerators
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
@@ -34,11 +32,17 @@ jobs:
       - name: Build ${{ matrix.arch }} release binary
         run: ${{ matrix.build_cmd }}
 
+      - name: Locate and stage binary
+        run: |
+          BIN=$(find .build -name PySwiftGenerators -type f -perm +111 | head -1)
+          echo "Found binary at: $BIN"
+          cp "$BIN" PySwiftGenerators-${{ matrix.arch }}
+
       - name: Upload binary artifact
         uses: actions/upload-artifact@v4
         with:
           name: binary-${{ matrix.arch }}
-          path: ${{ matrix.bin_path }}
+          path: PySwiftGenerators-${{ matrix.arch }}
 
   # Combine both binaries, package the artifactbundle, and attach to the release.
   package:
@@ -64,14 +68,14 @@ jobs:
 
       - name: Create universal binary and artifactbundle
         run: |
-          chmod +x /tmp/x86_64/PySwiftGenerators /tmp/arm64/PySwiftGenerators
+          chmod +x /tmp/x86_64/PySwiftGenerators-x86_64 /tmp/arm64/PySwiftGenerators-arm64
 
           BUNDLE=PySwiftGenerators.artifactbundle
           mkdir -p "$BUNDLE/bin"
 
           lipo -create \
-            /tmp/x86_64/PySwiftGenerators \
-            /tmp/arm64/PySwiftGenerators \
+            /tmp/x86_64/PySwiftGenerators-x86_64 \
+            /tmp/arm64/PySwiftGenerators-arm64 \
             -output "$BUNDLE/bin/PySwiftGenerators"
 
           # Use the tag name for release builds; fall back to 0.0.1 for dry runs.
