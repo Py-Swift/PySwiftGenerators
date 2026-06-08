@@ -1,0 +1,110 @@
+{
+  "": {
+    "swift-dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/master.swiftdeps"
+  },
+  "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/Expressions.swift": {
+    "dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/Expressions.d",
+    "object": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/Expressions.swift.o",
+    "swiftmodule": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/Expressions~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/Expressions.swiftdeps",
+    "diagnostics": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/Expressions.dia"
+  },
+  "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/Extensions.swift": {
+    "dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/Extensions.d",
+    "object": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/Extensions.swift.o",
+    "swiftmodule": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/Extensions.swiftdeps",
+    "diagnostics": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/Extensions.dia"
+  },
+  "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyCallbackGenerator.swift": {
+    "dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyCallbackGenerator.d",
+    "object": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyCallbackGenerator.swift.o",
+    "swiftmodule": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyCallbackGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyCallbackGenerator.swiftdeps",
+    "diagnostics": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyCallbackGenerator.dia"
+  },
+  "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyCasted.swift": {
+    "dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyCasted.d",
+    "object": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyCasted.swift.o",
+    "swiftmodule": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyCasted~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyCasted.swiftdeps",
+    "diagnostics": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyCasted.dia"
+  },
+  "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyClassByExtensionUnpack.swift": {
+    "dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyClassByExtensionUnpack.d",
+    "object": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyClassByExtensionUnpack.swift.o",
+    "swiftmodule": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyClassByExtensionUnpack~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyClassByExtensionUnpack.swiftdeps",
+    "diagnostics": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyClassByExtensionUnpack.dia"
+  },
+  "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyContainerMacro.swift": {
+    "dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyContainerMacro.d",
+    "object": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyContainerMacro.swift.o",
+    "swiftmodule": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyContainerMacro~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyContainerMacro.swiftdeps",
+    "diagnostics": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyContainerMacro.dia"
+  },
+  "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyListGenerator.swift": {
+    "dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyListGenerator.d",
+    "object": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyListGenerator.swift.o",
+    "swiftmodule": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyListGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyListGenerator.swiftdeps",
+    "diagnostics": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyListGenerator.dia"
+  },
+  "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyMethodGenerator.swift": {
+    "dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyMethodGenerator.d",
+    "object": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyMethodGenerator.swift.o",
+    "swiftmodule": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyMethodGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyMethodGenerator.swiftdeps",
+    "diagnostics": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyMethodGenerator.dia"
+  },
+  "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyStructGenerator.swift": {
+    "dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyStructGenerator.d",
+    "object": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyStructGenerator.swift.o",
+    "swiftmodule": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyStructGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyStructGenerator.swiftdeps",
+    "diagnostics": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyStructGenerator.dia"
+  },
+  "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PySwiftClassCast.swift": {
+    "dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftClassCast.d",
+    "object": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftClassCast.swift.o",
+    "swiftmodule": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftClassCast~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftClassCast.swiftdeps",
+    "diagnostics": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftClassCast.dia"
+  },
+  "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PySwiftClassGenerator.swift": {
+    "dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftClassGenerator.d",
+    "object": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftClassGenerator.swift.o",
+    "swiftmodule": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftClassGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftClassGenerator.swiftdeps",
+    "diagnostics": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftClassGenerator.dia"
+  },
+  "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PySwiftGenerators.swift": {
+    "dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftGenerators.d",
+    "object": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftGenerators.swift.o",
+    "swiftmodule": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftGenerators~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftGenerators.swiftdeps",
+    "diagnostics": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftGenerators.dia"
+  },
+  "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PySwiftKitMacroGenerator.swift": {
+    "dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftKitMacroGenerator.d",
+    "object": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftKitMacroGenerator.swift.o",
+    "swiftmodule": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftKitMacroGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftKitMacroGenerator.swiftdeps",
+    "diagnostics": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftKitMacroGenerator.dia"
+  },
+  "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PySwiftModuleGenerator.swift": {
+    "dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftModuleGenerator.d",
+    "object": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftModuleGenerator.swift.o",
+    "swiftmodule": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftModuleGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftModuleGenerator.swiftdeps",
+    "diagnostics": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftModuleGenerator.dia"
+  },
+  "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyTupleGenerator.swift": {
+    "dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyTupleGenerator.d",
+    "object": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyTupleGenerator.swift.o",
+    "swiftmodule": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyTupleGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyTupleGenerator.swiftdeps",
+    "diagnostics": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyTupleGenerator.dia"
+  }
+}

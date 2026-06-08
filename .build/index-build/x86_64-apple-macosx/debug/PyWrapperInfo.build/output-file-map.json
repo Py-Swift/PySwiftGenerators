@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInfo.build/master.swiftdeps"
+  },
+  "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInfo/PyWrapperInfo.swift": {
+    "dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInfo.build/PyWrapperInfo.d",
+    "object": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInfo.build/PyWrapperInfo.swift.o",
+    "swiftmodule": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInfo.build/PyWrapperInfo~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInfo.build/PyWrapperInfo.swiftdeps",
+    "diagnostics": "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInfo.build/PyWrapperInfo.dia"
+  }
+}

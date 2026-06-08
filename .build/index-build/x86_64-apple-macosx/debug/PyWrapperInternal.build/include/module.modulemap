@@ -1,0 +1,3 @@
+module PyWrapperInternal {
+    header "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/include/PyWrapperInternal-Swift.h"
+}

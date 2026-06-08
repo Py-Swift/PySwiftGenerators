@@ -1,0 +1,124 @@
+name: Release
+
+# Triggered automatically on version tag push — builds and uploads the artifactbundle.
+# Can also be triggered manually to do a dry-run build without publishing anything.
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Build only (no release upload)'
+        required: false
+        default: 'true'
+        type: boolean
+
+jobs:
+  # Build natively on each architecture (SwiftPM ignores --arch for .macro targets).
+  build:
+    strategy:
+      matrix:
+        include:
+          - os: macos-13   # Intel x86_64
+            arch: x86_64
+          - os: macos-14   # Apple Silicon arm64
+            arch: arm64
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build ${{ matrix.arch }} release binary
+        run: swift build --product PySwiftGenerators -c release
+
+      - name: Upload binary artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: binary-${{ matrix.arch }}
+          path: .build/release/PySwiftGenerators
+
+  # Combine both binaries, package the artifactbundle, and attach to the release.
+  package:
+    needs: build
+    runs-on: macos-latest
+    permissions:
+      contents: write   # needed to upload release assets
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download x86_64 binary
+        uses: actions/download-artifact@v4
+        with:
+          name: binary-x86_64
+          path: /tmp/x86_64
+
+      - name: Download arm64 binary
+        uses: actions/download-artifact@v4
+        with:
+          name: binary-arm64
+          path: /tmp/arm64
+
+      - name: Create universal binary and artifactbundle
+        run: |
+          chmod +x /tmp/x86_64/PySwiftGenerators /tmp/arm64/PySwiftGenerators
+
+          BUNDLE=PySwiftGenerators.artifactbundle
+          mkdir -p "$BUNDLE/bin"
+
+          lipo -create \
+            /tmp/x86_64/PySwiftGenerators \
+            /tmp/arm64/PySwiftGenerators \
+            -output "$BUNDLE/bin/PySwiftGenerators"
+
+          # Use the tag name for release builds; fall back to 0.0.1 for dry runs.
+          VERSION="${{ github.ref_name }}"
+          if [[ "$VERSION" != v* ]]; then
+            VERSION="v0.0.1"
+          fi
+          VERSION_NUM="${VERSION#v}"
+
+          cat > "$BUNDLE/info.json" << JSON
+          {
+            "schemaVersion": "1.0",
+            "artifacts": {
+              "PySwiftGenerators": {
+                "type": "executable",
+                "version": "${VERSION_NUM}",
+                "variants": [
+                  {
+                    "path": "bin/PySwiftGenerators",
+                    "supportedTriples": ["arm64-apple-macosx", "x86_64-apple-macosx"]
+                  }
+                ]
+              }
+            }
+          }
+          JSON
+
+          zip -r "$BUNDLE.zip" "$BUNDLE"
+
+          CHECKSUM=$(swift package compute-checksum "$BUNDLE.zip")
+          echo "BUNDLE_CHECKSUM=${CHECKSUM}" >> "$GITHUB_ENV"
+          echo "BUNDLE_VERSION=${VERSION}" >> "$GITHUB_ENV"
+
+          echo "## Artifact bundle checksum" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          echo "${CHECKSUM}" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "Add to PySwiftKit/Package.swift:" >> "$GITHUB_STEP_SUMMARY"
+          echo '```swift' >> "$GITHUB_STEP_SUMMARY"
+          echo ".binaryTarget(" >> "$GITHUB_STEP_SUMMARY"
+          echo "    name: \"PySwiftGenerators\"," >> "$GITHUB_STEP_SUMMARY"
+          echo "    url: \"https://github.com/Py-Swift/PySwiftGenerators/releases/download/${VERSION}/PySwiftGenerators.artifactbundle.zip\"," >> "$GITHUB_STEP_SUMMARY"
+          echo "    checksum: \"${CHECKSUM}\"" >> "$GITHUB_STEP_SUMMARY"
+          echo ")" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload artifactbundle to release
+        # Only upload on real tag pushes, not manual dry runs.
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: PySwiftGenerators.artifactbundle.zip
+          fail_on_unmatched_files: true

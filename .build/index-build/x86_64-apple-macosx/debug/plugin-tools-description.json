@@ -1,0 +1,1794 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.PySwiftGenerators-x86_64-apple-macosx15.0-debug-tool.module" : {
+      "executable" : "/Applications/Xcode-26.3.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/sources",
+      "importPath" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/Modules-tool",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/Expressions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/Extensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyCallbackGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyCasted.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyClassByExtensionUnpack.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyContainerMacro.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyListGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyMethodGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyStructGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PySwiftClassCast.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PySwiftClassGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PySwiftGenerators.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PySwiftKitMacroGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PySwiftModuleGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyTupleGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/swift-version--3CB7CFEC50E0D141.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/Modules-tool/PyWrapperInternal.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/Modules-tool/PyWrapperInfo.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "PySwiftGenerators",
+      "moduleOutputPath" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/Modules-tool/PySwiftGenerators.swiftmodule",
+      "objects" : [
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/Expressions.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/Extensions.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyCallbackGenerator.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyCasted.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyClassByExtensionUnpack.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyContainerMacro.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyListGenerator.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyMethodGenerator.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyStructGenerator.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftClassCast.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftClassGenerator.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftGenerators.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftKitMacroGenerator.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftModuleGenerator.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyTupleGenerator.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx11.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j16",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "pyswiftgenerators"
+      ],
+      "outputFileMapPath" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/Expressions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/Extensions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyCallbackGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyCasted.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyClassByExtensionUnpack.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyContainerMacro.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyListGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyMethodGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyStructGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftClassCast.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftClassGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftGenerators.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftKitMacroGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PySwiftModuleGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/PyTupleGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/Modules-tool/PySwiftGenerators.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/Expressions.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/Extensions.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyCallbackGenerator.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyCasted.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyClassByExtensionUnpack.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyContainerMacro.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyListGenerator.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyMethodGenerator.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyStructGenerator.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PySwiftClassCast.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PySwiftClassGenerator.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PySwiftGenerators.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PySwiftKitMacroGenerator.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PySwiftModuleGenerator.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyTupleGenerator.swift"
+      ],
+      "tempsPath" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.PyWrapperInfo-x86_64-apple-macosx15.0-debug-tool.module" : {
+      "executable" : "/Applications/Xcode-26.3.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInfo-tool.build/sources",
+      "importPath" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/Modules-tool",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInfo/PyWrapperInfo.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/swift-version--3CB7CFEC50E0D141.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInfo-tool.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "PyWrapperInfo",
+      "moduleOutputPath" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/Modules-tool/PyWrapperInfo.swiftmodule",
+      "objects" : [
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInfo-tool.build/PyWrapperInfo.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx11.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j16",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInfo-tool.build/include/PyWrapperInfo-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "pyswiftgenerators"
+      ],
+      "outputFileMapPath" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInfo-tool.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInfo-tool.build/PyWrapperInfo.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/Modules-tool/PyWrapperInfo.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInfo/PyWrapperInfo.swift"
+      ],
+      "tempsPath" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInfo-tool.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.PyWrapperInfo-x86_64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode-26.3.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInfo.build/sources",
+      "importPath" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInfo/PyWrapperInfo.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/swift-version--3CB7CFEC50E0D141.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInfo.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "PyWrapperInfo",
+      "moduleOutputPath" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/Modules/PyWrapperInfo.swiftmodule",
+      "objects" : [
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInfo.build/PyWrapperInfo.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx11.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j16",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInfo.build/include/PyWrapperInfo-Swift.h",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "pyswiftgenerators"
+      ],
+      "outputFileMapPath" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInfo.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/Modules/PyWrapperInfo.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInfo/PyWrapperInfo.swift"
+      ],
+      "tempsPath" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInfo.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.PyWrapperInternal-x86_64-apple-macosx15.0-debug-tool.module" : {
+      "executable" : "/Applications/Xcode-26.3.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/sources",
+      "importPath" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/Modules-tool",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/CatchClauseListSyntax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/ClosureExprSyntax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/ClosureSignatureSyntax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/Extensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/FunctionCallExprSyntax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/String.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/TryExprSyntax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/TypeSyntax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/VariableDeclSyntax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/ConvertArgs.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyCallableProtocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyCallback.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyGetSetDef/PyGetSetDefGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyGetSetDef/PyGetSetDefs.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyMethodDef/PyMethodDefGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyMethodDef/PyMethods.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyModuleDef/PyModule.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PyAsyncMethods.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PyBufferGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PyMappingMethods.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PyNumberMethods.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PySequenceMethods.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyWrap.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/ObjectInitializer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyCallableClosure.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyClass.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyClossure.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyTypeObject/PyTypeObjectLabels.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyTypeObject/PyTypeObjectStruct.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyTypeObject/PyType_typedefs.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyWrapperInternal.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/swift-version--3CB7CFEC50E0D141.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/Modules-tool/PyWrapperInfo.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "PyWrapperInternal",
+      "moduleOutputPath" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/Modules-tool/PyWrapperInternal.swiftmodule",
+      "objects" : [
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/CatchClauseListSyntax.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/ClosureExprSyntax.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/ClosureSignatureSyntax.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/Extensions.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/FunctionCallExprSyntax.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/String.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/TryExprSyntax.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/TypeSyntax.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/VariableDeclSyntax.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/ConvertArgs.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyCallableProtocol.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyCallback.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyGetSetDefGenerator.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyGetSetDefs.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyMethodDefGenerator.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyMethods.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyModule.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyAsyncMethods.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyBufferGenerator.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyMappingMethods.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyNumberMethods.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PySequenceMethods.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyWrap.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/ObjectInitializer.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyCallableClosure.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyClass.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyClossure.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyTypeObjectLabels.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyTypeObjectStruct.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyType_typedefs.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyWrapperInternal.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx11.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j16",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/include/PyWrapperInternal-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "pyswiftgenerators"
+      ],
+      "outputFileMapPath" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/CatchClauseListSyntax.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/ClosureExprSyntax.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/ClosureSignatureSyntax.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/Extensions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/FunctionCallExprSyntax.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/String.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/TryExprSyntax.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/TypeSyntax.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/VariableDeclSyntax.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/ConvertArgs.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyCallableProtocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyCallback.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyGetSetDefGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyGetSetDefs.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyMethodDefGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyMethods.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyModule.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyAsyncMethods.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyBufferGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyMappingMethods.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyNumberMethods.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PySequenceMethods.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyWrap.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/ObjectInitializer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyCallableClosure.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyClass.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyClossure.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyTypeObjectLabels.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyTypeObjectStruct.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyType_typedefs.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/PyWrapperInternal.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/Modules-tool/PyWrapperInternal.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/CatchClauseListSyntax.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/ClosureExprSyntax.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/ClosureSignatureSyntax.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/Extensions.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/FunctionCallExprSyntax.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/String.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/TryExprSyntax.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/TypeSyntax.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/VariableDeclSyntax.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/ConvertArgs.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyCallableProtocol.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyCallback.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyGetSetDef/PyGetSetDefGenerator.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyGetSetDef/PyGetSetDefs.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyMethodDef/PyMethodDefGenerator.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyMethodDef/PyMethods.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyModuleDef/PyModule.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PyAsyncMethods.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PyBufferGenerator.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PyMappingMethods.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PyNumberMethods.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PySequenceMethods.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyWrap.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/ObjectInitializer.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyCallableClosure.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyClass.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyClossure.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyTypeObject/PyTypeObjectLabels.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyTypeObject/PyTypeObjectStruct.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyTypeObject/PyType_typedefs.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyWrapperInternal.swift"
+      ],
+      "tempsPath" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.PyWrapperInternal-x86_64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode-26.3.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/sources",
+      "importPath" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/CatchClauseListSyntax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/ClosureExprSyntax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/ClosureSignatureSyntax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/Extensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/FunctionCallExprSyntax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/String.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/TryExprSyntax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/TypeSyntax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/VariableDeclSyntax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/ConvertArgs.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyCallableProtocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyCallback.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyGetSetDef/PyGetSetDefGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyGetSetDef/PyGetSetDefs.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyMethodDef/PyMethodDefGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyMethodDef/PyMethods.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyModuleDef/PyModule.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PyAsyncMethods.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PyBufferGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PyMappingMethods.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PyNumberMethods.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PySequenceMethods.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyWrap.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/ObjectInitializer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyCallableClosure.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyClass.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyClossure.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyTypeObject/PyTypeObjectLabels.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyTypeObject/PyTypeObjectStruct.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyTypeObject/PyType_typedefs.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyWrapperInternal.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/swift-version--3CB7CFEC50E0D141.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/Modules/PyWrapperInfo.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "PyWrapperInternal",
+      "moduleOutputPath" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/Modules/PyWrapperInternal.swiftmodule",
+      "objects" : [
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/CatchClauseListSyntax.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/ClosureExprSyntax.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/ClosureSignatureSyntax.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/Extensions.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/FunctionCallExprSyntax.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/String.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/TryExprSyntax.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/TypeSyntax.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/VariableDeclSyntax.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/ConvertArgs.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/PyCallableProtocol.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/PyCallback.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/PyGetSetDefGenerator.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/PyGetSetDefs.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/PyMethodDefGenerator.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/PyMethods.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/PyModule.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/PyAsyncMethods.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/PyBufferGenerator.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/PyMappingMethods.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/PyNumberMethods.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/PySequenceMethods.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/PyWrap.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/ObjectInitializer.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/PyCallableClosure.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/PyClass.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/PyClossure.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/PyTypeObjectLabels.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/PyTypeObjectStruct.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/PyType_typedefs.swift.o",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/PyWrapperInternal.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx11.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j16",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/include/PyWrapperInternal-Swift.h",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "pyswiftgenerators"
+      ],
+      "outputFileMapPath" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/Modules/PyWrapperInternal.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/CatchClauseListSyntax.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/ClosureExprSyntax.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/ClosureSignatureSyntax.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/Extensions.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/FunctionCallExprSyntax.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/String.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/TryExprSyntax.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/TypeSyntax.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/VariableDeclSyntax.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/ConvertArgs.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyCallableProtocol.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyCallback.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyGetSetDef/PyGetSetDefGenerator.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyGetSetDef/PyGetSetDefs.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyMethodDef/PyMethodDefGenerator.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyMethodDef/PyMethods.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyModuleDef/PyModule.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PyAsyncMethods.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PyBufferGenerator.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PyMappingMethods.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PyNumberMethods.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PySequenceMethods.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyWrap.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/ObjectInitializer.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyCallableClosure.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyClass.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyClossure.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyTypeObject/PyTypeObjectLabels.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyTypeObject/PyTypeObjectStruct.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyTypeObject/PyType_typedefs.swift",
+        "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyWrapperInternal.swift"
+      ],
+      "tempsPath" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "PySwiftGenerators" : [
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "PySwiftGenerators",
+      "-package-name",
+      "pyswiftgenerators",
+      "-c",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/Expressions.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/Extensions.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyCallbackGenerator.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyCasted.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyClassByExtensionUnpack.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyContainerMacro.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyListGenerator.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyMethodGenerator.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyStructGenerator.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PySwiftClassCast.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PySwiftClassGenerator.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PySwiftGenerators.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PySwiftKitMacroGenerator.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PySwiftModuleGenerator.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyTupleGenerator.swift",
+      "-I",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/Modules-tool",
+      "-target",
+      "x86_64-apple-macosx11.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j16",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "pyswiftgenerators",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "PyWrapperInfo" : [
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "PyWrapperInfo",
+      "-package-name",
+      "pyswiftgenerators",
+      "-c",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInfo/PyWrapperInfo.swift",
+      "-I",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/Modules-tool",
+      "-target",
+      "x86_64-apple-macosx11.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j16",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInfo-tool.build/include/PyWrapperInfo-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "pyswiftgenerators",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "PyWrapperInternal" : [
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "PyWrapperInternal",
+      "-package-name",
+      "pyswiftgenerators",
+      "-c",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/CatchClauseListSyntax.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/ClosureExprSyntax.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/ClosureSignatureSyntax.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/Extensions.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/FunctionCallExprSyntax.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/String.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/TryExprSyntax.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/TypeSyntax.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/VariableDeclSyntax.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/ConvertArgs.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyCallableProtocol.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyCallback.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyGetSetDef/PyGetSetDefGenerator.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyGetSetDef/PyGetSetDefs.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyMethodDef/PyMethodDefGenerator.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyMethodDef/PyMethods.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyModuleDef/PyModule.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PyAsyncMethods.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PyBufferGenerator.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PyMappingMethods.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PyNumberMethods.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PySequenceMethods.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyWrap.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/ObjectInitializer.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyCallableClosure.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyClass.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyClossure.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyTypeObject/PyTypeObjectLabels.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyTypeObject/PyTypeObjectStruct.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyTypeObject/PyType_typedefs.swift",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyWrapperInternal.swift",
+      "-I",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/Modules-tool",
+      "-target",
+      "x86_64-apple-macosx11.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j16",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/include/PyWrapperInternal-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "pyswiftgenerators",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode-26.3.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "PySwiftGenerators" : [
+      "PyWrapperInternal",
+      "PyWrapperInfo"
+    ],
+    "PyWrapperInfo" : [
+
+    ],
+    "PyWrapperInternal" : [
+      "PyWrapperInfo"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/Expressions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/Extensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyCallbackGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyCasted.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyClassByExtensionUnpack.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyContainerMacro.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyListGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyMethodGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyStructGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PySwiftClassCast.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PySwiftClassGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PySwiftGenerators.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PySwiftKitMacroGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PySwiftModuleGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PySwiftGenerators/PyTupleGenerator.swift"
+        }
+      ],
+      "outputFilePath" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PySwiftGenerators-tool.build/sources"
+    },
+    "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInfo-tool.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInfo/PyWrapperInfo.swift"
+        }
+      ],
+      "outputFilePath" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInfo-tool.build/sources"
+    },
+    "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInfo.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInfo/PyWrapperInfo.swift"
+        }
+      ],
+      "outputFilePath" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInfo.build/sources"
+    },
+    "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/CatchClauseListSyntax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/ClosureExprSyntax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/ClosureSignatureSyntax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/Extensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/FunctionCallExprSyntax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/String.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/TryExprSyntax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/TypeSyntax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/VariableDeclSyntax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/ConvertArgs.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyCallableProtocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyCallback.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyGetSetDef/PyGetSetDefGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyGetSetDef/PyGetSetDefs.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyMethodDef/PyMethodDefGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyMethodDef/PyMethods.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyModuleDef/PyModule.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PyAsyncMethods.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PyBufferGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PyMappingMethods.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PyNumberMethods.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PySequenceMethods.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyWrap.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/ObjectInitializer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyCallableClosure.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyClass.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyClossure.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyTypeObject/PyTypeObjectLabels.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyTypeObject/PyTypeObjectStruct.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyTypeObject/PyType_typedefs.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyWrapperInternal.swift"
+        }
+      ],
+      "outputFilePath" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal-tool.build/sources"
+    },
+    "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/CatchClauseListSyntax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/ClosureExprSyntax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/ClosureSignatureSyntax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/Extensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/FunctionCallExprSyntax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/String.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/TryExprSyntax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/TypeSyntax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Extensions/VariableDeclSyntax.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/ConvertArgs.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyCallableProtocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyCallback.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyGetSetDef/PyGetSetDefGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyGetSetDef/PyGetSetDefs.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyMethodDef/PyMethodDefGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyMethodDef/PyMethods.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyModuleDef/PyModule.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PyAsyncMethods.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PyBufferGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PyMappingMethods.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PyNumberMethods.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyTypeMethods/PySequenceMethods.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/Generators/PyWrap.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/ObjectInitializer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyCallableClosure.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyClass.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyClossure.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyTypeObject/PyTypeObjectLabels.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyTypeObject/PyTypeObjectStruct.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyTypeObject/PyType_typedefs.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/Sources/PyWrapperInternal/PyWrapperInternal.swift"
+        }
+      ],
+      "outputFilePath" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/PyWrapperInternal.build/sources"
+    },
+    "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/swift-version--3CB7CFEC50E0D141.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode-26.3.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Volumes/CodeSSD/dev_projects/pyswiftkit/PySwiftGenerators/.build/index-build/x86_64-apple-macosx/debug/swift-version--3CB7CFEC50E0D141.txt"
+    }
+  }
+}
