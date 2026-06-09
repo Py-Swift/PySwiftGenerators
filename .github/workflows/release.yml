@@ -14,75 +14,102 @@ on:
         type: boolean
 
 jobs:
-  # Build natively on each architecture (SwiftPM ignores --arch for .macro targets).
+  # Build natively on each architecture.
+  # macOS: both arm64 and x86_64 (via Rosetta on macos-15).
+  # Linux: x86_64 and aarch64 via ubuntu runners.
+  # Windows: not yet supported (Swift on Windows lacks stable macro plugin support).
   build:
     strategy:
       matrix:
         include:
           - os: macos-15
-            arch: x86_64
+            artifact: macos-x86_64
             build_cmd: arch -x86_64 swift build -c release
+            find_bin: find .build -path "*x86_64*" -name "PySwiftGenerators-tool" -type f -perm +111
           - os: macos-15
-            arch: arm64
+            artifact: macos-arm64
             build_cmd: swift build -c release
+            find_bin: find .build -path "*arm64*" -name "PySwiftGenerators-tool" -type f -perm +111
+          # Linux and Windows: uncomment when ready
+          # - os: ubuntu-latest
+          #   artifact: linux-x86_64
+          #   build_cmd: swift build -c release
+          #   find_bin: find .build -name "PySwiftGenerators-tool" -type f
+          # - os: ubuntu-24.04-arm
+          #   artifact: linux-aarch64
+          #   build_cmd: swift build -c release
+          #   find_bin: find .build -name "PySwiftGenerators-tool" -type f
+
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build ${{ matrix.arch }} release binary
+      - name: Install Swift (Linux)
+        if: runner.os == 'Linux'
+        uses: swift-actions/setup-swift@v2
+        with:
+          swift-version: "6.1"
+
+      - name: Build release binary
         run: ${{ matrix.build_cmd }}
 
       - name: Locate and stage binary
         run: |
-          BIN=$(find .build -name "PySwiftGenerators-tool" -type f -perm +111 | head -1)
+          BIN=$(${{ matrix.find_bin }} | head -1)
           echo "Found binary at: $BIN"
-          cp "$BIN" PySwiftGenerators-${{ matrix.arch }}
+          cp "$BIN" PySwiftGenerators-${{ matrix.artifact }}
 
       - name: Upload binary artifact
         uses: actions/upload-artifact@v4
         with:
-          name: binary-${{ matrix.arch }}
-          path: PySwiftGenerators-${{ matrix.arch }}
+          name: binary-${{ matrix.artifact }}
+          path: PySwiftGenerators-${{ matrix.artifact }}
 
-  # Combine both binaries, package the artifactbundle, and attach to the release.
+  # Combine all binaries, package the artifactbundle, and attach to the release.
   package:
     needs: build
     runs-on: macos-latest
     permissions:
-      contents: write   # needed to upload release assets
+      contents: write
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Download x86_64 binary
+      - name: Download all binaries
         uses: actions/download-artifact@v4
         with:
-          name: binary-x86_64
-          path: /tmp/x86_64
+          pattern: binary-*
+          path: /tmp/bins
+          merge-multiple: true
 
-      - name: Download arm64 binary
-        uses: actions/download-artifact@v4
-        with:
-          name: binary-arm64
-          path: /tmp/arm64
-
-      - name: Create universal binary and artifactbundle
+      - name: Create artifactbundle
         run: |
-          chmod +x /tmp/x86_64/PySwiftGenerators-x86_64 /tmp/arm64/PySwiftGenerators-arm64
+          chmod +x /tmp/bins/PySwiftGenerators-macos-x86_64 \
+                   /tmp/bins/PySwiftGenerators-macos-arm64
 
           BUNDLE=PySwiftGenerators.artifactbundle
-          mkdir -p "$BUNDLE/bin"
 
+          # macOS: lipo into a universal binary
+          mkdir -p "$BUNDLE/macos/bin"
           lipo -create \
-            /tmp/x86_64/PySwiftGenerators-x86_64 \
-            /tmp/arm64/PySwiftGenerators-arm64 \
-            -output "$BUNDLE/bin/PySwiftGenerators"
+            /tmp/bins/PySwiftGenerators-macos-x86_64 \
+            /tmp/bins/PySwiftGenerators-macos-arm64 \
+            -output "$BUNDLE/macos/bin/PySwiftGenerators-tool"
 
-          # Use the tag name for release builds; fall back to 0.0.1 for dry runs.
+          # Linux x86_64 (uncomment when linux jobs are enabled)
+          # mkdir -p "$BUNDLE/linux-x86_64/bin"
+          # cp /tmp/bins/PySwiftGenerators-linux-x86_64 \
+          #    "$BUNDLE/linux-x86_64/bin/PySwiftGenerators-tool"
+          # chmod +x "$BUNDLE/linux-x86_64/bin/PySwiftGenerators-tool"
+
+          # Linux aarch64 (uncomment when linux jobs are enabled)
+          # mkdir -p "$BUNDLE/linux-aarch64/bin"
+          # cp /tmp/bins/PySwiftGenerators-linux-aarch64 \
+          #    "$BUNDLE/linux-aarch64/bin/PySwiftGenerators-tool"
+          # chmod +x "$BUNDLE/linux-aarch64/bin/PySwiftGenerators-tool"
+
           VERSION="${{ github.ref_name }}"
-          if [[ "$VERSION" != v* ]]; then
-            VERSION="v0.0.1"
-          fi
+          if [[ "$VERSION" != v* ]]; then VERSION="v0.0.1"; fi
           VERSION_NUM="${VERSION#v}"
 
           cat > "$BUNDLE/info.json" << JSON
@@ -94,7 +121,7 @@ jobs:
                 "version": "${VERSION_NUM}",
                 "variants": [
                   {
-                    "path": "bin/PySwiftGenerators",
+                    "path": "macos/bin/PySwiftGenerators-tool",
                     "supportedTriples": ["arm64-apple-macosx", "x86_64-apple-macosx"]
                   }
                 ]
@@ -109,25 +136,31 @@ jobs:
           echo "BUNDLE_CHECKSUM=${CHECKSUM}" >> "$GITHUB_ENV"
           echo "BUNDLE_VERSION=${VERSION}" >> "$GITHUB_ENV"
 
-          echo "## Artifact bundle checksum" >> "$GITHUB_STEP_SUMMARY"
-          echo '```' >> "$GITHUB_STEP_SUMMARY"
-          echo "${CHECKSUM}" >> "$GITHUB_STEP_SUMMARY"
-          echo '```' >> "$GITHUB_STEP_SUMMARY"
-          echo "" >> "$GITHUB_STEP_SUMMARY"
-          echo "Add to PySwiftKit/Package.swift:" >> "$GITHUB_STEP_SUMMARY"
-          echo '```swift' >> "$GITHUB_STEP_SUMMARY"
-          echo ".binaryTarget(" >> "$GITHUB_STEP_SUMMARY"
-          echo "    name: \"PySwiftGenerators\"," >> "$GITHUB_STEP_SUMMARY"
-          echo "    url: \"https://github.com/Py-Swift/PySwiftGenerators/releases/download/${VERSION}/PySwiftGenerators.artifactbundle.zip\"," >> "$GITHUB_STEP_SUMMARY"
-          echo "    checksum: \"${CHECKSUM}\"" >> "$GITHUB_STEP_SUMMARY"
-          echo ")" >> "$GITHUB_STEP_SUMMARY"
-          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          # Write checksum + binaryTarget snippet into a file used as release body
+          cat > release_notes.md << NOTES
+          ## PySwiftGenerators ${VERSION}
+
+          Prebuilt macro plugin binary for macOS (universal), Linux x86_64 and Linux aarch64.
+
+          ### Add to Package.swift
+
+          \`\`\`swift
+          .binaryTarget(
+              name: "PySwiftGenerators",
+              url: "https://github.com/Py-Swift/PySwiftGenerators/releases/download/${VERSION}/PySwiftGenerators.artifactbundle.zip",
+              checksum: "${CHECKSUM}"
+          )
+          \`\`\`
+          NOTES
+
+          # Also echo to Actions step summary
+          cat release_notes.md >> "$GITHUB_STEP_SUMMARY"
 
       - name: Upload artifactbundle to release
-        # Only upload on real tag pushes, not manual dry runs.
         if: startsWith(github.ref, 'refs/tags/v')
         uses: softprops/action-gh-release@v2
         with:
           files: PySwiftGenerators.artifactbundle.zip
+          body_path: release_notes.md
           fail_on_unmatched_files: true
 
