@@ -4,7 +4,7 @@ name: Release
 # Can also be triggered manually to do a dry-run build without publishing anything.
 on:
   push:
-    tags: ['v*']
+    tags: ['[0-9]*']
   workflow_dispatch:
     inputs:
       dry_run:
@@ -109,8 +109,7 @@ jobs:
           # chmod +x "$BUNDLE/linux-aarch64/bin/PySwiftGenerators-tool"
 
           VERSION="${{ github.ref_name }}"
-          if [[ "$VERSION" != v* ]]; then VERSION="v0.0.1"; fi
-          VERSION_NUM="${VERSION#v}"
+          if [[ -z "$VERSION" || "$VERSION" == refs/* ]]; then VERSION="0.0.1"; fi
 
           cat > "$BUNDLE/info.json" << JSON
           {
@@ -118,7 +117,7 @@ jobs:
             "artifacts": {
               "PySwiftGenerators": {
                 "type": "swiftCompilerPlugin",
-                "version": "${VERSION_NUM}",
+                "version": "${VERSION}",
                 "variants": [
                   {
                     "path": "macos/bin/PySwiftGenerators-tool",
@@ -157,7 +156,7 @@ jobs:
           cat release_notes.md >> "$GITHUB_STEP_SUMMARY"
 
       - name: Upload artifactbundle to release
-        if: startsWith(github.ref, 'refs/tags/v')
+        if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
           files: PySwiftGenerators.artifactbundle.zip
