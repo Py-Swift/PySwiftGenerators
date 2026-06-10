@@ -115,8 +115,8 @@ jobs:
           {
             "schemaVersion": "1.0",
             "artifacts": {
-              "PySwiftGenerators": {
-                "type": "swiftCompilerPlugin",
+              "PySwiftGeneratorsBinary": {
+                "type": "executable",
                 "version": "${VERSION}",
                 "variants": [
                   {
