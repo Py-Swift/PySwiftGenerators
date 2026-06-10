@@ -17,19 +17,19 @@ let package = Package(
             dependencies: [
                 .product(name: "SwiftSyntaxMacros", package: "swift-syntax"),
                 .product(name: "SwiftCompilerPlugin", package: "swift-syntax"),
-                "PSG_WrapperInfo",
-                "PSG_WrapperInternal",
+                "PyWrapperInfo",
+                "PyWrapperInternal",
             ],
             path: "Sources_dev/PySwiftGenerators"
         ),
-        .target(name: "PSG_WrapperInfo", path: "Sources_dev/PyWrapperInfo"),
+        .target(name: "PyWrapperInfo", path: "Sources_dev/PyWrapperInfo"),
         .target(
-            name: "PSG_WrapperInternal",
+            name: "PyWrapperInternal",
             dependencies: [
                 .product(name: "SwiftSyntaxMacros", package: "swift-syntax"),
                 .product(name: "SwiftSyntaxBuilder", package: "swift-syntax"),
                 .product(name: "SwiftCompilerPlugin", package: "swift-syntax"),
-                "PSG_WrapperInfo",
+                "PyWrapperInfo",
             ],
             path: "Sources_dev/PyWrapperInternal"
         ),
