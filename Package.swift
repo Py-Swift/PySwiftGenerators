@@ -14,7 +14,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "PySwiftGeneratorsBinary",
-            path: "../PySwiftGenerators.artifactbundle"
+            path: "PySwiftGenerators.artifactbundle"
         ),
     ]
 )

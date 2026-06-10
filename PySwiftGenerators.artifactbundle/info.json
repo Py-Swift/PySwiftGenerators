@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "1.0",
+  "artifacts": {
+    "PySwiftGeneratorsBinary": {
+      "type": "executable",
+      "version": "0.0.1",
+      "variants": [
+        {
+          "path": "arm64-apple-macosx/bin/PySwiftGenerators-tool",
+          "supportedTriples": ["arm64-apple-macosx"]
+        },
+        {
+          "path": "x86_64-apple-macosx/bin/PySwiftGenerators-tool",
+          "supportedTriples": ["x86_64-apple-macosx"]
+        }
+      ]
+    }
+  }
+}
