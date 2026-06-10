@@ -3,7 +3,7 @@
   "artifacts": {
     "PySwiftGeneratorsBinary": {
       "type": "executable",
-      "version": "0.0.15",
+      "version": "0.0.16",
       "variants": [
         {
           "path": "arm64-apple-macosx/bin/PySwiftGenerators-tool",
