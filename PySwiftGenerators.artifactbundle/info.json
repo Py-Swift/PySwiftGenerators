@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "artifacts": {
     "PySwiftGeneratorsBinary": {
-      "type": "swiftCompilerPlugin",
-      "version": "0.0.6",
+      "type": "executable",
+      "version": "0.0.7",
       "variants": [
         {
           "path": "arm64-apple-macosx/bin/PySwiftGenerators-tool",
