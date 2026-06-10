@@ -36,7 +36,7 @@ def main():
     if len(sys.argv) != 2:
         print("Usage: python3 release.py <version>   e.g. 0.0.2")
         sys.exit(1)
-    version = sys.argv[1]
+    version = sys.argv[1].lstrip("v")
 
     # 1. Copy fresh binaries from PySwiftKit/bin bundle
     for arch in ARCHS:
@@ -62,7 +62,11 @@ def main():
     run("git", "commit", "-m", f"Release {version}")
     run("git", "tag", version)
     run("git", "push", "origin", "main", "--tags")
-    print(f"\nDone. Tag {version} pushed — no assets needed.")
+    run("gh", "release", "create", version,
+        "--repo", "Py-Swift/PySwiftGenerators",
+        "--title", version,
+        "--notes", f"Prebuilt macro plugin binary for macOS (arm64 + x86_64).\n\n```swift\n.package(url: \"https://github.com/Py-Swift/PySwiftGenerators\", from: \"{version}\")\n```")
+    print(f"\nDone. Release {version} published.")
 
 
 main()
