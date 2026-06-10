@@ -3,15 +3,19 @@
   "artifacts": {
     "PySwiftGeneratorsBinary": {
       "type": "executable",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "variants": [
         {
           "path": "arm64-apple-macosx/bin/PySwiftGenerators-tool",
-          "supportedTriples": ["arm64-apple-macosx"]
+          "supportedTriples": [
+            "arm64-apple-macosx"
+          ]
         },
         {
           "path": "x86_64-apple-macosx/bin/PySwiftGenerators-tool",
-          "supportedTriples": ["x86_64-apple-macosx"]
+          "supportedTriples": [
+            "x86_64-apple-macosx"
+          ]
         }
       ]
     }
