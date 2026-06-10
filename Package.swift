@@ -19,7 +19,8 @@ let package = Package(
                 .product(name: "SwiftCompilerPlugin", package: "swift-syntax"),
                 "PyWrapperInfo",
                 "PyWrapperInternal",
-            ]
+            ],
+            path: "Sources_dev/PySwiftGenerators"
         ),
         .target(name: "PyWrapperInfo", path: "Sources_dev/PyWrapperInfo"),
         .target(
@@ -32,6 +33,5 @@ let package = Package(
             ],
             path: "Sources_dev/PyWrapperInternal"
         ),
-        .target(name: "PySwiftGenerators", path: "Sources_dev/PySwiftGenerators"),
     ]
 )
