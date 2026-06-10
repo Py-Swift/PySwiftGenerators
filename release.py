@@ -38,7 +38,7 @@ def main():
         sys.exit(1)
     version = sys.argv[1].lstrip("v")
 
-    # 1. Copy fresh binaries from PySwiftKit/bin bundle
+    # 1. Copy fresh binaries from PySwiftKit/bin bundle (binaries only, not info.json)
     for arch in ARCHS:
         src = SRC_BUNDLE / arch / "bin" / "PySwiftGenerators-tool"
         dst = REPO_BUNDLE / arch / "bin" / "PySwiftGenerators-tool"

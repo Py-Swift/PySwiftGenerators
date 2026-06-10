@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "artifacts": {
     "PySwiftGeneratorsBinary": {
-      "type": "executable",
+      "type": "swiftCompilerPlugin",
       "version": "0.0.5",
       "variants": [
         {
