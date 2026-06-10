@@ -7,6 +7,7 @@ let package = Package(
     platforms: [.macOS(.v11), .iOS(.v13)],
     products: [
         .library(name: "PySwiftGenerators", targets: ["PySwiftGenerators"]),
+        .library(name: "PyWrapperInfo", targets: ["PyWrapperInfo"]),
     ],
     dependencies: [
         .package(url: "https://github.com/swiftlang/swift-syntax.git", from: "600.0.0"),
