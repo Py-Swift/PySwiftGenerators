@@ -58,7 +58,7 @@ def main():
     print(f"Updated info.json -> version {version}")
 
     # 3. Commit, tag, push
-    run("git", "add", "PySwiftGenerators.artifactbundle")
+    run("git", "add", "PySwiftGenerators.artifactbundle", "Package.swift")
     run("git", "commit", "-m", f"Release {version}")
     run("git", "tag", version)
     run("git", "push", "origin", "main", "--tags")

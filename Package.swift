@@ -4,8 +4,10 @@ import CompilerPluginSupport
 
 let package = Package(
     name: "PySwiftGenerators",
-    platforms: [.macOS(.v13), .iOS(.v16)],
-    products: [],
+    platforms: [.macOS(.v11), .iOS(.v13)],
+    products: [
+        .library(name: "PySwiftGenerators", targets: ["PySwiftGenerators"]),
+    ],
     dependencies: [],
     targets: [
         .macro(
