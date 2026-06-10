@@ -7,7 +7,6 @@ let package = Package(
     platforms: [.macOS(.v11), .iOS(.v13)],
     products: [
         .library(name: "PySwiftGenerators", targets: ["PySwiftGenerators"]),
-        .library(name: "PyWrapperInfo", targets: ["PyWrapperInfo"]),
     ],
     dependencies: [
         .package(url: "https://github.com/swiftlang/swift-syntax.git", from: "600.0.0"),
@@ -18,19 +17,19 @@ let package = Package(
             dependencies: [
                 .product(name: "SwiftSyntaxMacros", package: "swift-syntax"),
                 .product(name: "SwiftCompilerPlugin", package: "swift-syntax"),
-                "PyWrapperInfo",
+                "PSGWrapperInfo",
                 "PyWrapperInternal",
             ],
             path: "Sources_dev/PySwiftGenerators"
         ),
-        .target(name: "PyWrapperInfo", path: "Sources_dev/PyWrapperInfo"),
+        .target(name: "PSGWrapperInfo", path: "Sources_dev/PyWrapperInfo"),
         .target(
             name: "PyWrapperInternal",
             dependencies: [
                 .product(name: "SwiftSyntaxMacros", package: "swift-syntax"),
                 .product(name: "SwiftSyntaxBuilder", package: "swift-syntax"),
                 .product(name: "SwiftCompilerPlugin", package: "swift-syntax"),
-                "PyWrapperInfo",
+                "PSGWrapperInfo",
             ],
             path: "Sources_dev/PyWrapperInternal"
         ),

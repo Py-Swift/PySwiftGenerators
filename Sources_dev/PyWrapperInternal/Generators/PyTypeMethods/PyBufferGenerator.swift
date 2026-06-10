@@ -6,7 +6,7 @@
 
 import Foundation
 import SwiftSyntax
-import PyWrapperInfo
+import PSGWrapperInfo
 
 
 struct PyBufferGenerator {

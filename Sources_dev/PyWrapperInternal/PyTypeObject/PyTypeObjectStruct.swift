@@ -7,7 +7,7 @@
 
 import Foundation
 import SwiftSyntax
-import PyWrapperInfo
+import PSGWrapperInfo
 
 public struct PyTypeObjectStruct {
     

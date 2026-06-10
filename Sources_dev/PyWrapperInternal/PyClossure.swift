@@ -6,7 +6,7 @@
 //
 
 import SwiftSyntax
-import PyWrapperInfo
+import PSGWrapperInfo
 
 public class PyClossure {
     

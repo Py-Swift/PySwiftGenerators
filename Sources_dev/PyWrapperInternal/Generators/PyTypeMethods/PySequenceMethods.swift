@@ -8,7 +8,7 @@
 
 import Foundation
 import SwiftSyntax
-import PyWrapperInfo
+import PSGWrapperInfo
 
 fileprivate extension String {
 	func asLabeledExpr(_ expression: ExprSyntaxProtocol) -> LabeledExprSyntax {

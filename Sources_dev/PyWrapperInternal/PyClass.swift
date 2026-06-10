@@ -5,7 +5,7 @@
 
 import SwiftSyntax
 import SwiftSyntaxBuilder
-import PyWrapperInfo
+import PSGWrapperInfo
 
 
 

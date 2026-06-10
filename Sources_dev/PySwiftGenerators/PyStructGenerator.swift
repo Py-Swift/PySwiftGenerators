@@ -7,7 +7,7 @@ import SwiftSyntax
 import SwiftSyntaxBuilder
 import SwiftSyntaxMacros
 import PyWrapperInternal
-import PyWrapperInfo
+import PSGWrapperInfo
 
 
 

@@ -7,7 +7,7 @@
 
 import SwiftSyntax
 import SwiftSyntaxBuilder
-import PyWrapperInfo
+import PSGWrapperInfo
 
 func kwarg_option(f: FunctionDeclSyntax) -> Kwargs {
     if let pymethod = f.getPyMethod {
