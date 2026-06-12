@@ -2,6 +2,7 @@
 //  PySwiftClassCast.swift
 //  PySwiftKit
 //
+// import SwiftSyntaxWrapper
 import SwiftCompilerPlugin
 import SwiftSyntax
 import SwiftSyntaxBuilder

@@ -4,6 +4,7 @@
 //
 //  Created by CodeBuilder on 03/05/2025.
 //
+// import SwiftSyntaxWrapper
 import SwiftSyntax
 
 public class PyModule {

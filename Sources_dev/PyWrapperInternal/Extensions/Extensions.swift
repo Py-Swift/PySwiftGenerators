@@ -5,6 +5,7 @@
 //  Created by CodeBuilder on 01/05/2025.
 //
 
+// import SwiftSyntaxWrapper
 import SwiftSyntax
 
 extension AttributeSyntax {
@@ -21,6 +22,8 @@ extension AttributeListSyntax.Element {
             attributeSyntax.attributeName.trimmedDescription == label
         case .ifConfigDecl(_):
             false
+        default:
+            fatalError("AttributeListSyntax.Element.isAttribute -> \(self)")
         }
     }
     
@@ -61,6 +64,8 @@ extension FunctionDeclSyntax {
                 attributeSyntax
             case .ifConfigDecl(_):
                 nil
+            default:
+                fatalError("FunctionDeclSyntax.getPyMethod -> \(self)")
             }
         } else { nil }
     }

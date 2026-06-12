@@ -2,6 +2,7 @@
 //  PyTupleGenerator.swift
 //  PySwiftKit
 //
+// import SwiftSyntaxWrapper
 import SwiftSyntax
 import SwiftSyntaxMacros
 import PyWrapperInternal

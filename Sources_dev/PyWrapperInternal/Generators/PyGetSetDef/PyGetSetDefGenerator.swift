@@ -3,6 +3,7 @@
 //  PySwiftWrapper
 //
 
+// import SwiftSyntaxWrapper
 import SwiftSyntax
 import SwiftSyntaxBuilder
 
@@ -35,6 +36,8 @@ public struct PyGetSetDefGenerator {
                     read_only = !acclist.contains(where: {$0.accessorSpecifier.text == "set"})
                 case .getter(_):
                     read_only = true
+                default:
+                    fatalError("PyGetSetDefGenerator.init -> \(self)")
                 }
             }
         }

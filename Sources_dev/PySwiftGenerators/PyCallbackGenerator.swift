@@ -4,6 +4,7 @@
 //
 //  Created by CodeBuilder on 04/05/2025.
 //
+// import SwiftSyntaxWrapper
 import SwiftSyntax
 import SwiftSyntaxMacros
 import PyWrapperInternal
@@ -207,7 +208,10 @@ class PyCallableArguments {
         let _macroName = node.macroName.text
         macroName = _macroName
         types = node.genericArgumentClause?.arguments.compactMap({ generic in
-            generic.argument
+            switch generic.argument {
+            case .type(let t): t
+            default: nil
+            }
         }) ?? []
         setAttributes(arguments: node.arguments)
         

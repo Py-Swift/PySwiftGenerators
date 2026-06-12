@@ -4,6 +4,7 @@
 //
 //  Created by CodeBuilder on 29/04/2025.
 //
+// import SwiftSyntaxWrapper
 import SwiftSyntaxMacros
 import SwiftCompilerPlugin
 import SwiftSyntax
